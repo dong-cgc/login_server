@@ -27,6 +27,7 @@ while MAX_WRONG_COUNT != wrong_count:
     if username == login_username and password == login_password:
         print("登录成功!")
         already_login = True
+        break
     else:
         print("登录失败")
         wrong_count += 1
